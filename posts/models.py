@@ -15,3 +15,4 @@ class Post(Base):
             "title": self.title,
             "body": self.body
         }
+        return post
